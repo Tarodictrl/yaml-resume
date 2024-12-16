@@ -1,0 +1,54 @@
+categories:
+  - &lang
+    Languages
+  - &db
+    Databases
+  - &broker
+    Brokers
+  - &containers
+    Containers & Orchestration
+  - &cicd
+    CI/CD
+
+skills:
+- name: python
+  level: middle
+  category: *lang
+  labels:
+    - programming
+- name: PostgreSQL
+  level: middle
+  category: *db
+  labels:
+    - databases
+- name: ClickHouse
+  level: junior
+  category: *db
+  labels:
+    - databases
+- name: c#
+  level: junior
+  category: *lang
+  labels:
+    - programming
+- name: docker
+  level: junior
+  labels:
+    - tools
+    - technology
+  category: *containers
+- name: docker-compose
+  level: junior
+  category: *containers
+  labels:
+    - tools
+- name: GitHub Actions
+  level: middle
+  category: *cicd
+  labels:
+    - tools
+- name: RabbitMQ
+  level: middle
+  category: *broker
+  labels:
+    - broker
